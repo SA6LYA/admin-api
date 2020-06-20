@@ -7,7 +7,7 @@ default:
   - '!minecraft.commands.*'
 # Привилегии
 lite:
-  displayName: '&bLite '
+  displayName: '&aLite '
   donate: true
   boost: 1.2
   subgroups:
@@ -34,7 +34,7 @@ magma:
   permissions:
   - 'donate.magma'
 quantum:
-  displayName: '&2Quantum '
+  displayName: '&aQuantum '
   donate: true
   boost: 1.8
   subgroups:
@@ -45,7 +45,7 @@ quantum:
   permissions:
   - 'donate.quantum'
 ruby:
-  displayName: '&dRuby '
+  displayName: '&5Ruby '
   donate: true
   boost: 2.0
   subgroups:
@@ -57,7 +57,7 @@ ruby:
   permissions:
   - 'donate.ruby'
 support:
-  displayName: '&eSupport '
+  displayName: '&3&lSupport '
   donate: true
   boost: 2.5
   subgroups:
@@ -70,7 +70,7 @@ support:
   permissions:
   - 'donate.support'
 youtube:
-  displayName: '&cYou&fTube &c'
+  displayName: '&fYou&cTube &c'
   boost: 1.3
   subgroups:
   - 'default'
@@ -78,13 +78,13 @@ youtube:
   - 'donate.youtube'
 # Стафф привилегии
 organizer:
-  displayName: '&3Организатор '
+  displayName: '&1Организатор '
   subgroups:
   - 'default'
   permissions:
   - 'donate.organizer'
 builder:
-  displayName: '&3Builder '
+  displayName: '&eБилдер &8| &e'
   subgroups:
   - 'default'
   - 'lite'
@@ -94,7 +94,7 @@ builder:
   permissions:
   - 'staff.builder'
 hbuilder:
-  displayName: '&3H-Builder '
+  displayName: '&e&lСт. Билдер &8| &e'
   subgroups:
   - 'default'
   - 'lite'
@@ -105,7 +105,7 @@ hbuilder:
   permissions:
   - 'staff.hbuilder'
 moder:
-  displayName: '&9Moder '
+  displayName: '&9Модер &8| &9'
   boost: 1.5
   subgroups:
   - 'default'
@@ -118,7 +118,7 @@ moder:
   permissions:
   - 'staff.moder'
 hmoder:
-  displayName: '&9H-Moder '
+  displayName: '&bСт. Модер &8| &b'
   subgroups:
   - 'default'
   - 'lite'
@@ -131,7 +131,7 @@ hmoder:
   permissions:
   - 'staff.hmoder'
 admin:
-  displayName: '&4Admin '
+  displayName: '&4Админ &8| &4'
   subgroups:
   - 'default'
   - 'lite'
